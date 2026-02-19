@@ -1,0 +1,9 @@
+LIBRARY client.dll
+EXPORTS
+    initializeWinsock
+    cleanupWinsock
+    connectToServer
+    handleClientMessages
+    sendFile
+    receiveFile
+    sendMessage
